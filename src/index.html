@@ -7,10 +7,20 @@
   <div class="container">
     <label for="num-input">Enter a dollar amount:</label>
     <input type="number" id="num-input" min="0" oninput="this.value = !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" placeholder="Enter a number">
-    <input type="text" id="currency-input" placeholder="Pick a currency to convert to:">
+    <div class="wrapper">
+      <div class="search-input">
+        <a href="" target="_blank" hidden></a>
+        <input type="text" id="currency-input" placeholder="Type to search..">
+        <div class="autocom-box">
+          <!-- here list are inserted from javascript -->
+        </div>
+        <div class="icon"><i class="fas fa-search"></i></div>
+      </div>
+    </div>
     <button type="button" id="get-convert">Convert my money</button>
     <button type="button" id="get-convert2">Convert my money</button>
     <p id="convert-display"></p>
   </div>
 </body>
 </html>
+

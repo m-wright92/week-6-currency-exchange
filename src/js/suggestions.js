@@ -1,3 +1,4 @@
+export {suggestions as suggestions};
 let suggestions = [
   "AED	UAE Dirham",
   "AFN	Afghan Afghani",
@@ -160,4 +161,4 @@ let suggestions = [
   "ZAR	South African Rand",
   "ZMW	Zambian Kwacha",
   "ZWL	Zimbabwean Dollar",
-]
+];
