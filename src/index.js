@@ -44,6 +44,5 @@ $(document).ready(function() {
       $("#convert-display").text("$" + userNumInput * body.conversion_rates[curCodeInput]);
     }
   });
-
 });
 

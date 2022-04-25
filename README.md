@@ -1,31 +1,37 @@
-# (Application Name)
+# Currency Exchange
 
-#### (Brief Description of Application)
+#### A quick and simple site for converting from USD to most any other currency.
 
-#### By (Your Name Here)
+#### By Mike Wright
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* JavaScript
+* jQuery
+* CSS
+* NPM
+* Node
 
 ## Description
 
+This webpage gives users the option to convert any USD amount to any of 161 different currencies from around the globe. I've also included a single fake currency as an easter egg. 
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Clone this repository from the "code" drop down menu.
+* After cloning, navigate to the root directory of the repository using your terminal and run the `npm install` command to install all necessary dependencies.
+* Create a free account to get an API key from [Exchange Rate API](https://www.exchangerate-api.com/docs/overview)
+* Create a .env file in the root directory.
+* Inside the new .env file add a line of code `API_KEY={your key here}` to store your api key.
+* Once all dependencies are installed and your api key is stored, run the `npm run start` command to start a live server to view the site.
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* No known bugs at the time of this update.
 
 ## License
 
-## Contact Information
+MIT Licensed
+
+Copyright (c) date 4/22/22 Mike Wright
